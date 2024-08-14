@@ -1,0 +1,11 @@
+BeautifulSoup4
+selenium 
+openai
+faiss-cpu
+fitz
+ipykernel
+numpy 
+python-dotenv
+uvicorn
+fastapi 
+pydantic
