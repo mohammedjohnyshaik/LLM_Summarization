@@ -73,3 +73,5 @@ pylint.log
 .env.local
 .env.*
 *.env
+.DS_Store
+

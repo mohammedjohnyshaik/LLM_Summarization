@@ -9,10 +9,10 @@ import fitz
 
 load_dotenv()
 app = FastAPI()
-openai.api_key = os.getenv("api_key")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 class QueryRequest(BaseModel):
     query: str
-
+#uvicorn ml_api:app --reload
 def pagelevel_pdf_process(pdf_path):
     document = fitz.open(pdf_path)
     page_chunks_ = []
