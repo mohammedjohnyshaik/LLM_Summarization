@@ -9,3 +9,7 @@ python-dotenv
 uvicorn
 fastapi 
 pydantic
+docker-compose
+cython
+pyYAML
+pymupdf
